@@ -1,0 +1,91 @@
+
+
+/* grid item list */
+/*
+h1{
+    position: absolute;
+    right:10%;
+    top:50%;
+    font-family: 'Syne', sans-serif;
+    font-size: 100%;
+    color: coral;
+}
+*/
+h1{
+    position: absolute;
+    top:5%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Syne', sans-serif;
+    font-size: 12px;
+}
+h2{
+    position: absolute;
+    top:90%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Syne', sans-serif;
+    font-size: 12px;
+}
+
+body{
+    background-color: white;
+}
+
+.poemline{
+    position:absolute;
+    width:50%;
+    height: 500px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+ol li{
+    position: static;
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    counter-increment: counter;
+}
+
+ol {
+    list-style: none;
+    counter-reset: counter;
+}
+
+ol li::before {
+    content: counter(counter) ".";
+    color: tomato;
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 10px;
+    -webkit-animation-duration:3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
